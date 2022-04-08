@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <title>Binar: Challenge 04</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f1f3ff">
+      <div class="container-fluid navbar-rental">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="" width="100" height="34" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end off-navbar" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel"><strong>BCR</strong></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto navigation">
+              <a class="nav-link active" aria-current="page" href="#first-section">Our Services</a>
+              <a class="nav-link" href="#second-section">Why Us</a>
+              <a class="nav-link" href="#third-section">Testimonial</a>
+              <a class="nav-link" href="#fourth-section">FAQ</a>
+              <button class="btn btn-md text-white register" type="button" style="background-color: #5cb85f">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navigation Bar -->
+
+    <!-- Main Section -->
+    <div class="main" style="background-color: #f1f3ff">
+      <div class="container-fluid main-sect">
+        <!--  -->
+        <div class="box-desc">
+          <h1 class="title-usaha">Sewa & Rental Mobil Terbaik di kawasan Jakarta Barat</h1>
+          <p class="desc-usaha">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+        </div>
+        <!--  -->
+        <div class="box-car">
+          <img src="images/img_car.png" alt="" class="car-image" />
+          <div class="background-blue"></div>
+        </div>
+        <!--  -->
+      </div>
+    </div>
+    <!-- Akhir Main Section -->
+
+    <!-- Cari Mobil -->
+    <div class="container" id="cari-mobil">
+      <div class="container card" id="cm-search">
+        <form id="cm-form">
+          <div class="form-search p-3">
+            <div class="driver" style="width: 20%;">
+              <p>Tipe Driver</p>
+              <div class="input-group pt-0">
+                <select class="form-select" id="list">
+                  <option hidden>Pilih Tipe Driver</option>
+                  <option value="true">Dengan Sopir</option>
+                  <option value="false">Tanpa Sopir (Lepas Kunci)</option>
+                </select>
+              </div>
+            </div>
+            <div class="tanggal" style="width: 20%;">
+              <p>Tanggal</p>
+              <div class="input-group">
+                <input type="date" class="form-control" placeholder="Pilih Tanggal" aria-label="Pilih Tangggal" id="list2date" required />
+              </div>
+            </div>
+            <div class="waktu" style="width: 20%;">
+              <p>Waktu Jemput/ Ambil</p>
+              <div class="input-group mb-3">
+                <select class="form-select" id="list3">
+                  <option hidden>Pilih Waktu</option>
+                  <option value="8">08:00 WIB</option>
+                  <option value="9">09:00 WIB</option>
+                  <option value="10">10:00 WIB</option>
+                  <option value="11">11:00 WIB</option>
+                  <option value="22">24:00 WIB</option>
+                </select>
+              </div>
+            </div>
+            <div class="penumpang" style="width: 25%;">
+              <p>Jumlah Penumpang (Optional)</p>
+              <div class="input-group mb-3">
+                <select class="form-select" id="list4">
+                  <option value="null">Jumlah Penumpang</option>
+                  <option value="1">1 orang</option>
+                  <option value="2">2 orang</option>
+                  <option value="3">3 orang</option>
+                  <option value="4">4 orang</option>
+                  <option value="5">5 orang</option>
+                  <option value="6">6 orang</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="tombol-search">
+              <button type="submit" class="btn btn-success text-white btn-sm">Cari Mobil</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="container" id="cm-result">
+        <div class="row" id="cm-inputs">
+        </div>
+        <div class="row" id="cm-cards"></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="foot">
+        <div class="adress">
+          <p>Jl. Kalimati, Kedaungkaliangke, Cengkareng</p>
+          <p>aryrmdn26@gmail.com</p>
+          <p>0895-343-286-759</p>
+        </div>
+        <div class="fitur">
+          <p>Our Services</p>
+          <p>Why Us</p>
+          <p>Testimonial</p>
+          <p>FAQ</p>
+        </div>
+        <div class="social-media">
+          <p>Connect with us</p>
+          <a href=""><img src="images/footer-icon/icon_facebook.png" alt="" /></a>
+          <a href=""><img src="images/footer-icon/icon_instagram.png" alt="" /></a>
+          <a href=""><img src="images/footer-icon/icon_twitter.png" alt="" /></a>
+          <a href=""><img src="images/footer-icon/icon_mail.png" alt="" /></a>
+          <a href=""><img src="images/footer-icon/icon_twitch.png" alt="" /></a>
+        </div>
+        <div class="copyright">
+          <p>Copyright Binar 2022</p>
+          <a href=""><img src="images/logo.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Footer -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- Javascript untuk menampilkan Car -->
+  <script type="text/javascript" src="./scripts/car.js"></script>
+  <script type="text/javascript" src="./scripts/getValue.js"></script>
+  </body>
+</html>

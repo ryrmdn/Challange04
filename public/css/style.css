@@ -1,0 +1,984 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-style: normal;
+}
+.container {
+  /* border: 1px solid black; */
+  width: 100%;
+}
+.navbar-rental {
+  /* border: 1px solid black; */
+  width: 100%;
+  padding: 0px;
+}
+/* Navbar */
+.navbar {
+  /* border: 1px solid black; */
+  padding: 0.5em 6.8em;
+  position: fixed;
+  width: 100%;
+  z-index: 999999999;
+}
+.nav-link {
+  margin-right: 10px;
+  color: black !important;
+}
+.off-navbar {
+  width: 50%;
+}
+.register {
+  height: 38px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+/* Main Section */
+.main {
+  /* border: 1px solid black; */
+  width: 100%;
+  padding-top: 80px;
+}
+.main-sect {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.box-desc {
+  /* border: 1px solid black; */
+  width: 45vw;
+  padding-top: 70px;
+  margin-left: 109px;
+}
+.title-usaha {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+.desc-usaha {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  width: 35vw;
+}
+.button-sewa {
+  align-self: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+.box-car {
+  /* border: 1px solid black; */
+  width: 45vw;
+  position: relative;
+  overflow: hidden;
+}
+.car-image {
+  padding-right: 30px;
+  position: relative;
+  top: 15px;
+  z-index: 999;
+  width: 600px;
+}
+.background-blue {
+  position: absolute;
+  top: 142px;
+  right: 0px;
+  width: 44.2vw;
+  height: 200px;
+  background-color: #0d28a6;
+  border-radius: 60px 0px 0px 0px;
+}
+
+/* Our Services */
+/* .our {
+      border: 1px solid black;
+    } */
+.services {
+  /* border: 1px solid black; */
+  display: flex;
+  padding-top: 105px;
+}
+.box-girl {
+  /* border: 1px solid black; */
+  margin-left: 160px;
+}
+.box-girl img {
+  width: 459px;
+  height: 428px;
+}
+.box-kualitas {
+  /* border: 1px solid black; */
+  padding-left: 60px;
+  padding-top: 40px;
+}
+.title-services {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  width: 40vw;
+  margin-bottom: 24px;
+}
+.desc-services {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  width: 36vw;
+  margin-bottom: 16px;
+}
+.layanan {
+  display: flex;
+}
+.list {
+  padding-right: 16px;
+}
+.image-list {
+  margin-bottom: 18px;
+}
+.keunggulan p {
+  margin-bottom: 21.5px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* Why Us Section */
+.why {
+  /* border: 1px solid black; */
+  padding-top: 60px;
+}
+.title-why {
+  /* border: 1px solid black; */
+  margin: 0.5em 6.9em;
+}
+.title-why h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.title-why .question {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.why-us {
+  /* border: 1px solid black; */
+  overflow: hidden;
+  margin: 0.5em 6.9em;
+  display: flex;
+  justify-content: space-between;
+}
+.card-why {
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  padding: 18px;
+  overflow: hidden;
+  width: 245px;
+  height: 210px;
+}
+.card-why h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 23px;
+}
+.card-why p {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/* Testimonial Section */
+.testimoial {
+  /* border: 1px solid black; */
+  padding-top: 70px;
+}
+.testi-slide h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+.testi-slide p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.card {
+  border: 1px solid #f1f3ff;
+}
+.item {
+  width: 100%;
+  background-color: #f1f3ff;
+  /* margin-right: 20; */
+}
+.row {
+  margin: 0px 5px;
+}
+.card-left {
+  width: 50%;
+  height: 50%;
+  margin: 50px 10px;
+}
+.card-right {
+  text-align: justify;
+  font-size: 12px;
+  padding: 50px 30px 0 20px;
+}
+.card-right i {
+  color: gold;
+  padding-bottom: 10px;
+}
+.owl-carousel .card-body {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+/* Getting Started Section */
+.getting {
+  /* border: 1px solid black; */
+  padding: 4em 6.8em 0em 6.8em;
+}
+.get {
+  height: 50vh;
+  border-radius: 13px;
+  background-color: #0d28a6;
+  color: white;
+  padding-top: 60px;
+}
+.get h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+}
+.p-blue {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  width: 42%;
+  margin: 0 auto;
+}
+
+/* FAQ Section */
+.faqs {
+  /* border: 1px solid black; */
+  padding-top: 90px;
+}
+.faq {
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 0px 108px 0px 108px;
+}
+/* .box-faq {
+      border: 1px solid black;
+    } */
+.box-faq h1 {
+  /* border: 1px solid black; */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.box-faq p {
+  /* border: 1px solid black; */
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.box-acordion {
+  /* border: 1px solid black; */
+  padding-left: 100px;
+  width: 67.6%;
+}
+.card {
+  border: 1px solid #d4d4d4;
+  margin-bottom: 16px;
+}
+
+/* Footer */
+/* .footer {
+      border: 1px solid black;
+    } */
+.foot {
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 100px 107px 0px 107px;
+}
+.adress {
+  /* border: 1px solid black; */
+  width: 27%;
+}
+.fitur {
+  /* border: 1px solid black; */
+  margin-left: 60px;
+}
+.social-media {
+  /* border: 1px solid black; */
+  width: 27%;
+  margin-left: 60px;
+}
+.social-media a {
+  margin-right: 14px;
+}
+.copyright {
+  /* border: 1px solid black; */
+  width: 20%;
+  margin-left: 60px;
+}
+
+/* Tablet Version */
+@media (max-width: 768px) {
+  /* Navbar */
+  /* .navbar-rental {
+        border: 5px solid black;
+      } */
+  .navbar {
+    padding: 0px;
+  }
+  .navbar-rental {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 12px;
+  }
+  .navigation {
+    margin-top: -30px;
+  }
+  .register {
+    width: 65%;
+    height: 38px;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+  /* Main Secton */
+  .main {
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 100%;
+  }
+  .main-sect {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  .box-desc {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 12px;
+  }
+  .title-usaha {
+    width: 85vw;
+  }
+  .desc-usaha {
+    width: 92vw;
+  }
+  .button-sewa {
+    margin-bottom: 24px;
+  }
+  .box-car {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-left: 12px;
+  }
+  .car-image {
+    /* border: 1px solid black; */
+    position: relative;
+    padding-right: 0px;
+    width: 100%;
+  }
+  .background-blue {
+    display: none;
+  }
+
+  /* Our Services */
+  .our {
+    width: 100%;
+  }
+  .services {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 85px;
+  }
+  .box-girl {
+    /* border: 1px solid black; */
+    margin: auto;
+  }
+  .box-girl img {
+    width: 252px;
+    height: 228px;
+  }
+
+  .box-kualitas {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 12px;
+    padding-top: 25px;
+  }
+  .title-services {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .desc-services {
+    width: 92vw;
+    margin-bottom: 16px;
+  }
+
+  /* Why Us Section */
+  .why {
+    /* border: 1px solid black; */
+    padding-top: 70px;
+    width: 100%;
+  }
+  .title-why {
+    /* border: 1px solid black; */
+    margin: 0px;
+    text-align: center;
+  }
+  .why-us {
+    /* border: 1px solid black; */
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .card-why {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 28px;
+    overflow: hidden;
+    width: 93.5%;
+    height: 200px;
+    align-self: center;
+  }
+  .card-why p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  /* Testimonial Section */
+  .item {
+    /* border: 1px solid black; */
+    margin-left: -5px;
+    width: 103%;
+  }
+  .card-left {
+    width: 30%;
+    margin: 30px 35%;
+  }
+
+  .card-right {
+    font-size: 12px;
+    padding: 0 20px 30px 20px;
+  }
+  .card-right i {
+    color: gold;
+  }
+  .faq-icon {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .owl-carousel .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Getting Started Section */
+  .getting {
+    /* border: 1px solid black; */
+    padding: 12px;
+  }
+  .get {
+    height: 400px;
+    background-color: #0d28a6;
+    margin-top: 60px;
+    padding: 58px;
+  }
+  .get h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .p-blue {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  /* FAQ SEction */
+  .faqs {
+    /* border: 1px solid black; */
+    padding-top: 80px;
+  }
+  .faq {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 12px 0px 12px;
+  }
+  /* .box-faq {
+        border: 1px solid black;
+      } */
+  .box-faq h1 {
+    /* border: 1px solid black; */
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .box-faq p {
+    /* border: 1px solid black; */
+    font-weight: 300;
+    font-size: 13.6px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .box-acordion {
+    /* border: 1px solid black; */
+    padding-left: 0px;
+    width: 100%;
+  }
+  .card {
+    margin-bottom: 16px;
+  }
+
+  /* Footer */
+  /* .footer {
+        border: 1px solid black;
+      } */
+  .foot {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px 0px 0px;
+  }
+  .adress {
+    /* border: 1px solid black; */
+    padding: 0px 12px;
+    width: 100%;
+  }
+  .fitur {
+    /* border: 1px solid black; */
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0px 12px;
+    margin-left: 0px;
+  }
+  .social-media {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 12px;
+  }
+  .social-media a {
+    display: inline;
+  }
+  .copyright {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-left: 0px;
+    padding: 15px 12px;
+  }
+}
+
+/* Tablet Version */
+@media (max-width: 768px) {
+  /* Why Us */
+  .card-why {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 28px;
+    overflow: hidden;
+    width: 97%;
+    height: 200px;
+    align-self: center;
+  }
+  /* Testimonial */
+  .item {
+    /* border: 1px solid black; */
+    margin-left: -5px;
+    width: 101.5%;
+    height: 88%;
+  }
+  .card-left {
+    width: 15%;
+    margin: 20px auto;
+  }
+  /* Getting Started Section */
+  .getting {
+    /* border: 1px solid black; */
+    padding: 12px;
+  }
+  .get {
+    height: 280px;
+    background-color: #0d28a6;
+    margin: 0px auto;
+    padding: 58px;
+  }
+  .get h1 {
+    /* border: 1px solid black; */
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .p-blue {
+    /* border: 1px solid black; */
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+}
+
+/* Mobile Version */
+@media (max-width: 576px) {
+  /* Navbar */
+  /* .navbar-rental {
+        border: 5px solid black;
+      } */
+  .navbar {
+    padding: 0px;
+  }
+  .navbar-rental {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 12px;
+  }
+  .navigation {
+    margin-top: -30px;
+  }
+  .register {
+    width: 65%;
+    height: 38px;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+  /* Main Secton */
+  .main {
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 100%;
+  }
+  .main-sect {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  .box-desc {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 12px;
+  }
+  .title-usaha {
+    width: 85vw;
+  }
+  .desc-usaha {
+    width: 92vw;
+  }
+  .button-sewa {
+    margin-bottom: 24px;
+  }
+  .box-car {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-left: 12px;
+  }
+  .car-image {
+    /* border: 1px solid black; */
+    position: relative;
+    padding-right: 0px;
+    width: 100%;
+  }
+  .background-blue {
+    display: none;
+  }
+
+  /* Our Services */
+  .our {
+    width: 100%;
+  }
+  .services {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 85px;
+  }
+  .box-girl {
+    /* border: 1px solid black; */
+    margin: auto;
+  }
+  .box-girl img {
+    width: 252px;
+    height: 228px;
+  }
+
+  .box-kualitas {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 12px;
+    padding-top: 25px;
+  }
+  .title-services {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .desc-services {
+    width: 92vw;
+    margin-bottom: 16px;
+  }
+
+  /* Why Us Section */
+  .why {
+    /* border: 1px solid black; */
+    padding-top: 70px;
+    width: 100%;
+  }
+  .title-why {
+    /* border: 1px solid black; */
+    margin: 0px;
+    text-align: center;
+  }
+  .why-us {
+    /* border: 1px solid black; */
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .card-why {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 28px;
+    overflow: hidden;
+    width: 93.5%;
+    height: 200px;
+    align-self: center;
+  }
+  .card-why p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  /* Testimonial Section */
+  .item {
+    /* border: 1px solid black; */
+    margin-left: -5px;
+    width: 103%;
+  }
+  .card-left {
+    width: 30%;
+    margin: 30px 35%;
+  }
+
+  .card-right {
+    font-size: 12px;
+    padding: 0 20px 30px 20px;
+  }
+  .card-right i {
+    color: gold;
+  }
+  .faq-icon {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .owl-carousel .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Getting Started Section */
+  .getting {
+    /* border: 1px solid black; */
+    padding: 12px;
+  }
+  .get {
+    height: 400px;
+    background-color: #0d28a6;
+    margin-top: 60px;
+    padding: 58px;
+  }
+  .get h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .p-blue {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  /* FAQ SEction */
+  .faqs {
+    /* border: 1px solid black; */
+    padding-top: 80px;
+  }
+  .faq {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 12px 0px 12px;
+  }
+  /* .box-faq {
+        border: 1px solid black;
+      } */
+  .box-faq h1 {
+    /* border: 1px solid black; */
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .box-faq p {
+    /* border: 1px solid black; */
+    font-weight: 300;
+    font-size: 13.6px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .box-acordion {
+    /* border: 1px solid black; */
+    padding-left: 0px;
+    width: 100%;
+  }
+  .card {
+    margin-bottom: 16px;
+  }
+
+  /* Footer */
+  /* .footer {
+        border: 1px solid black;
+      } */
+  .foot {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px 0px 0px;
+  }
+  .adress {
+    /* border: 1px solid black; */
+    padding: 0px 12px;
+    width: 100%;
+  }
+  .fitur {
+    /* border: 1px solid black; */
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0px 12px;
+    margin-left: 0px;
+  }
+  .social-media {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 12px;
+  }
+  .social-media a {
+    display: inline;
+  }
+  .copyright {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-left: 0px;
+    padding: 15px 12px;
+  }
+  .form-search {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .driver {
+    width: 100% !important;
+  }
+  .tanggal {
+    width: 100% !important;
+  }
+  .waktu {
+    width: 100% !important;
+  }
+  .penumpang {
+    width: 100% !important;
+  }
+  .tombol-search button {
+    width: 100% !important;
+    background-color: #5cb85f;
+  }
+}
+
+/* Cari Mobil */
+.container #cari-mobil {
+  border: 5px solid black;
+  width: 80%;
+}
+
+.container #cm-search {
+  /* border: 1px solid black; */
+  width: 90%;
+  box-shadow: 2px 3px 5px 0px #777777;
+  z-index: 999;
+  margin-top: -40px;
+}
+
+.form-search {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form-select,
+.form-control {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+input[type='date']::before {
+  content: attr(placeholder);
+  position: absolute;
+  color: black;
+}
+
+input[type='date'] {
+  color: #ffffff;
+}
+
+input[type='date']:focus,
+input[type='date']:valid {
+  color: #666666;
+}
+
+input[type='date']:focus::before,
+input[type='date']:valid::before {
+  content: '';
+}
+
+.tombol-search {
+  margin-top: 34px;
+}
+.tombol-search button {
+  background-color: #5cb85f;
+}
